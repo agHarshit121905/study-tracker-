@@ -1,0 +1,13 @@
+# Local database (Streamlit Cloud is ephemeral anyway; use Turso for persistence)
+data/study.db
+data/*.db
+
+# Secrets — never commit API keys or DB tokens
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
