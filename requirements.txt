@@ -1,0 +1,8 @@
+streamlit>=1.30
+
+# Optional — only for persistent cloud deployment via Turso (hosted SQLite).
+# Not needed to run locally (local mode uses the stdlib sqlite3 module).
+libsql>=0.1
+
+# Optional — only for the "Write it up with AI" toggle.
+google-genai>=0.3
